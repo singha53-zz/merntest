@@ -11,7 +11,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha -u tdd --reporter spec --exit"
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha -u tdd --reporter spec --exit",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
   },
   "devDependencies": {
     "chai": "^4.2.0",
