@@ -7,14 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "start": "node index.js",
     "test": "NODE_ENV=test mocha -u tdd --reporter spec --exit"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0"
   }
 }
