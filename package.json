@@ -1,0 +1,15 @@
+{
+  "name": "merntest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/singha53/merntest.git",
+  "author": "Amrit Singh <Amrit.Singh@hli.ubc.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
