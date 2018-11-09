@@ -8,9 +8,7 @@
 }
 
 .App-header {
-  background-color: black;
-  min-height: 100vh;
-  display: flex;
+  background-color: yellow;
   flex-direction: column;
   align-items: center;
   justify-content: center;
